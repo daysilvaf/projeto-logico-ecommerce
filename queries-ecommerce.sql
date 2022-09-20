@@ -36,7 +36,7 @@ ORDER BY lnome;
 
 -- Espaçamento 
 
-SELECT SUM(preco) Faturamento, MAX(preco) maior_compra, MIN(preco) menor_compra, ROUND(AVG(preco),2)média,
+SELECT SUM(preco) Faturamento, MAX(preco) maior_compra, MIN(preco) menor_compra, ROUND(AVG(preco),2)media,
 SUM(envio) total_frete, MAX(envio) maior_frete, MIN(envio) menor_frete, AVG(envio) media_de_fretes
 FROM Produtos, Pedidos
 WHERE categoria ='Segurança Pessoal';
